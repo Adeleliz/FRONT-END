@@ -1,0 +1,43 @@
+h1{
+    color: rgba(5, 151, 17, 0.842);
+    font-family: 'Courier New', Courier, monospace;
+    font-style:xx-large ;
+    text-align: center;
+}
+.container{
+    max-width: 300px;
+    margin: 40px auto;
+    padding:40px;
+    border-radius: 15px;
+    text-align: left;
+    background-color:rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow:0 8px 16px rgba(0,0,0,.3 ) ;
+}
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    input{
+        padding: 10px;
+        border:1px solid black;
+        border-radius: 6px;
+        margin-bottom: 9px;
+    }
+    .e{
+  padding: 10px 14px;
+  margin: 8% auto;
+  border: none;
+  display: block;
+  border-radius: 10px;
+  background: green;
+  color: white;
+  cursor: pointer;
+
+}
+.e:hover{
+    background-color: black;
+}
+
+
+    
