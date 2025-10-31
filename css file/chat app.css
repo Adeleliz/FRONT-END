@@ -5,9 +5,18 @@
     height: 100vh;
 }
 .user-list{
-    background: yellow;
+    background: rgb(84, 228, 56);
     border-right:1px solid black;
     padding:15px;
+}
+.bg-img{
+    position:fixed ;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
 }
 .user-list li{
     display:flex;
@@ -16,7 +25,6 @@
 }
 .chat-area{
     padding:20px;
-    background: green;
     overflow-y: auto;
     width: 100%; /* Add this line */
 }
